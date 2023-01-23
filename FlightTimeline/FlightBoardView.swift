@@ -22,7 +22,9 @@ struct FlightBoardView: View {
     
     var body: some View {
         List(shownFlights) { flight in
-            FlightRowView(flight: flight)
+            NavigationLink(destination: FlightDetailsView(flight: flight)) {
+                FlightRowView(flight: flight)
+            }
         }
         .listStyle(.plain)
         .navigationTitle(boardName)

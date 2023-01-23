@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  FlightTimeline
-//
-//  Created by Alexey Efimov on 22.06.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
